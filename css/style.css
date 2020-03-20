@@ -1,0 +1,73 @@
+/**
+ * fil: css/style.css
+ **/
+* {
+  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.backimg{
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li a{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+li a:hover{
+background-color: #d3d3d3;
+}
+
+#flexible {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#flexible > article {
+    width: 300px;
+    color: #000;
+    background-color: #d3d3d3;
+    margin: 12px;
+    padding: .5rem;
+
+/* desktop */
+    @media only screen and (min-width: 768px){
+        
+    }
+
+/* tablet */
+    @media only screen and (min-width 600px){
+        
+    }
+
+/* mobil */
+    @media only screen and (min-width 320px){
+        
+    }
