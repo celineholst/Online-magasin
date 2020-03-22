@@ -1,20 +1,25 @@
-/**
- * fil: css/style.css
- **/
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Cormorant+Garamond|Old+Standard+TT|Playfair+Display&display=swap');
+
 * {
   box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    color: #000000;
 }
+
 
 .backimg{
     max-width: 100%;
 }
 
+/* navigationbar */
 ul{
+    position: fixed;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
     background-color: #fff;
     position: fixed;
@@ -23,25 +28,59 @@ ul{
 }
 
 li a{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
     float: right;
     display: block;
-    color: white;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: #000;
-}
-
-.logo{
-    display: inline-block;
-    vertical-align: top;
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
 }
 
 li a:hover{
-background-color: #d3d3d3;
+background-color: beige;
+}
+
+.logo{
+    position: absolute;
+    top: 0px;
+}
+
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 125px;
+    letter-spacing: 2px;
+}
+
+p{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+#front{
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    padding: 25px;
+    top: 200px;
+    margin-left: 100px;
+    padding-bottom: 10px;
+    width: 700px;
+    height: 420px;
 }
 
 #flexible {
@@ -50,6 +89,7 @@ background-color: #d3d3d3;
     justify-content: center;
 }
 
+/* flexbox */
 #flexible > article {
     width: 300px;
     color: #000;
