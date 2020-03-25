@@ -1,0 +1,154 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Cormorant+Garamond|Old+Standard+TT|Playfair+Display&display=swap');
+
+/* Styling af baggrundsbillede */
+body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../images/form.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Responsiv artikel start */
+.linje {
+    border-top: 2px solid #000;
+}
+
+.container {
+    width: 100%;
+}
+
+.indhold {
+    width: 100%;
+}
+
+.indhold h1 {
+    padding: 30px 30px 20px;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    line-height: 44px;
+}
+
+.indhold h2 {
+    padding: 30px 25px 20px;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.indhold p {
+    padding: 0px 30px 20px;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Old Standard TT', serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.img {
+    width: 100%;
+}
+
+.billede-box {
+    padding: 0px 30px 20px;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Old Standard TT', serif;
+    font-size: 12px;
+}
+
+.icon {
+    padding: 0px 30px 20px;
+}
+
+.information {
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14px;
+    padding: 0px 30px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+/* Styling af artikel slut */
+
+/* Responsiv artikel tablet */
+@media only screen and (min-width: 768px) {
+     .linje{
+        border-top: 2px solid #000;
+    }
+    
+    .container{
+        width: 700px;
+        margin: 0 auto;
+    }
+    
+    .indhold h1 {
+        padding: 20px 0px 0px;
+        font-size: 60px;
+    }
+    
+    .indhold h2 {
+        padding: 20px 0px 0px;
+        font-size: 25px;
+    }
+    
+    .indhold p {
+        padding: 20px 0px 0px;
+    }
+    
+    .img {
+        padding-top: 30px;
+    }
+    
+    .billede-box, .icon,
+    .information{
+        padding: 10px 0px 0px;
+    }
+}
+
+/* Responsiv artikel desktop */
+@media only screen and (min-width: 992px){
+    .linje{
+        border-top: 3px solid #000;
+    }
+    
+    .container{
+        width: 700px;
+        margin: 0 auto;
+    }
+    
+    .indhold h1 {
+        padding: 10px 0px 0px;
+        font-size: 70px;
+    }
+    
+    .indhold h2 {
+        padding: 10px 0px 0px;
+        font-size: 30px;
+    }
+    
+    .indhold p {
+        padding: 10px 0px 0px;
+    }
+    
+    .img {
+        padding-top: 30px;
+    }
+    
+    .billede-box, .icon,
+    .information{
+        padding: 10px 0px 0px;
+    }
+    
+}

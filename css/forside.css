@@ -1,0 +1,214 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Cormorant+Garamond|Old+Standard+TT|Playfair+Display&display=swap');
+
+/* Styling af midter boks */
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('../images/baggrund.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.vertical {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.overskrift {
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Styling af infobokse */
+.index-links div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: beige;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.index-links div h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    line-height: 120px !important;
+    text-decoration: none;
+}
+
+/* Mediarules tablet */
+@media only screen and (min-width: 768px) {
+    .index-banner {
+    height: 400px;
+    margin-top: 20px;
+    }
+    
+    .overskrift {
+    font-size: 40px;
+        line-height: 10px;
+    }
+    
+    h1 {
+    font-size: 85px;
+    line-height: 10px;
+    }
+    
+    h2 {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    }
+    
+    .wrapper {
+    width: 750px;
+    margin: 0 auto;
+    }
+    
+    .index-links {
+    overflow: hidden;
+    }
+    
+    .index-links div {
+    margin: 30px 22px;
+    height: 175px;
+    float: left;
+    width: calc(30% - 20px) !important; 
+    }
+    
+    .index-box-1 {
+    background-image: url('../images/info1-kopi.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    
+    .index-box-2 {
+    background-image: url('../images/info2-kopi.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    
+    .index-box-3 {
+    background-image: url('../images/info3-kopi.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+    .index-links div h3 {
+    line-height: 130px !important;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px #111;
+    }
+    
+}
+
+/* Mediarules desktop */
+@media only screen and (min-width: 992px) {
+    .index-banner {
+    height: 700px;
+    }
+ 
+    .overskrift {
+    font-size: 70px;
+    margin: 80px;
+    margin-top: 120px;
+    text-align: left;
+    line-height: 30px;
+    }
+    
+    h1 {
+    font-size: 140px;
+    margin: 80px;
+    text-align: left; 
+    line-height: 15px;
+    }
+    
+    h2 {
+    display: block;
+    width: 560px;
+    margin: 80px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 24px;
+    }
+    
+    .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    }
+    
+    .index-links {
+    overflow: hidden;
+    }
+    
+    .index-links div {
+    position: relative;
+    margin: 30px 22px;
+    height: 230px;
+    float: left;
+    }
+    
+    .index-box-1 {
+    background-image: url('../images/info1-kopi.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    
+    .index-box-2 {
+    background-image: url('../images/info2-kopi.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    
+    .index-box-3 {
+    background-image: url('../images/info3-kopi.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+    .index-links div h3 {
+    line-height: 180px !important;
+    color: white;
+    font-size: 38px;
+    text-shadow: 2px 2px 8px #111;
+    }
+}
